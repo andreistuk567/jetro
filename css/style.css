@@ -4,3 +4,6 @@ html{
 header{
   box-sizing: border-box;
 }
+footer{
+  background-color:red;
+}

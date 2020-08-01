@@ -1,0 +1,74 @@
+@media (max-width: 960px){
+	.header__menu-btn{
+		display: block;
+	}
+	.menu ul{
+		display: none;
+		position: absolute;
+		z-index: 2;
+		top: 88px;
+		left: 0;
+		right: 0;
+		width: 100%;
+		background-color: rgba(236, 119, 53, 0.8);
+		height: 408px;
+		margin-bottom: 40px;
+	}
+	.menu li{
+		display: block;
+		text-align: center;
+	}
+	.menu__list-item {
+		color: #fff;
+		padding-bottom: 40px;
+	}
+	 .menu__list-item.menu__list-item-active{
+	 	color: #fff;
+	 }
+	 .menu__list-item.menu__list-item-active:hover{
+	 	 color: #e8663c;
+	 }
+	 .blog_inner {
+	 	flex-wrap: wrap;
+	 	justify-content:space-around;
+	 }
+	.blog_item{
+		width: 100%;
+	 	margin-bottom: 20px;
+	 	padding-right: 15px;
+	 }
+	 .thumbs.slick-slider{
+	 	display: none;
+	 }
+	 
+	 .about__inner{
+	 	flex-wrap: wrap;
+	 	justify-content: space-around;
+
+	 }
+	 .about__item {
+		margin-right: 15px;
+		margin-bottom: 15px;
+	 }
+	.footer__inner{
+		flex-wrap: wrap;
+	}
+	.footer__item-aboutjetro,
+	.footer__item-twiiter-widget,
+	.footer__item-contactus,
+	.footer__item-contactus-images{
+		width: 100%;
+	}
+
+}
+@media (max-width: 520px){
+	.slider__info{
+	 	display: none;
+	 }
+}
+
+@media (min-width: 960px){
+	.menu >ul{
+		display: block !important;
+	}
+}
